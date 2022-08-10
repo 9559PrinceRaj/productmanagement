@@ -137,7 +137,7 @@ const updateCart = async function (req, res) {
                 return res.status(201).send({ status: true, msg: "quantity reduced by 1 ", data: saveData })
             }
 
-            //-----------------------product will be removed from cart------------------------
+            //-----------------------product will be removed from cart----------------------
             if (removeProduct == 0) {
 
                 let arr2 = cartData.items
